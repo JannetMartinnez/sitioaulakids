@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraAlbum-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>AulaKidSM | Album</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../css/3w ww.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../../imagenes/icono.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="../../css/estilos.css">
+
+<!--[if lt IE 9]> <script src="ardoraFiles/js/html5shiv.js"></script> <![endif]-->
+<link type="text/css" href="ardoraFiles/css/normalize.css" rel="stylesheet" />
+<link type="text/css" href="AZonas_resources/css/ardoraAlbum.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="ardoraFiles/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="ardoraFiles/js/jquery-ui.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.core.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.widget.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.mouse.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.draggable.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.droppable.min.js"></script>
+<script src="ardoraFiles/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraAlbumCFG.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraAlbum.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraCanvasDraw.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraTab.js"></script>
+<script language="javascript" type="text/javascript" src="AZonas_resources/js/ardoraPosts.js"></script>
+<style>
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: #C03;
+    clear: left;
+    text-align: center;
+    position:1000px;
+  }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:20px;width:20px;padding:0;}
+</style>
+<style type="text/css">
+
+
+#apDiv2 {
+  position: absolute;
+  left: 80px;
+  top: 7px;
+  width: 497px;
+  height: 36px;
+  z-index: 1;
+}
+#apDiv3 {
+  position: absolute;
+  left: 1242px;
+  margin-top: 8px;
+  width: 154px;
+  height: 41px;
+  z-index: 2;
+}
+#divw3-mobile{
+  position:inherit;
+  width:100%;
+  height:90px;
+  background-image:url(../../imagenes/aves.jpg);
+  border-color:solid black;
+  border:inset;
+}
+#divImages{
+  margin-left:13%;
+  margin-right:1.5%; 
+  text-align:justify;
+  position:inherit;
+  
+}
+#menuActi{
+    max-width: 250px;
+    width: 100%;
+    margin: 48px auto;
+    position: relative;
+   }
+   .actividad{
+    margin-top: 180px;
+    margin-left: 100px;
+   }
+</style>
+
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+  <!-- banner -->
+<header> 
+<div class="w3-top">
+<div class="w3-light-gray w3-mobile" id="divw3-mobile"></div>
+<div id="apDiv2"> <img src="../../imagenes/logo aula.png" width="500" height="100"/></div>
+<div id="apDiv3" >
+
+  <img src="../../imagenes/colorful-childrens-school-backpack-free-clip-art.png"  width="80" height="75" onmouseover="cambiarImagen()" onmouseout="mostrarImagen()" id="back" /></div>
+</div>
+</header>
+
+<!-- barra de inicio -->
+<div class="w3-top">
+<div class="w3-bar w3-card-4 w3-blue-gray " style="position:fixed; top:90px;height:53px">
+  <a href="../../Contacto.html" class="w3-bar-item w3-button w3-right w3-padding-16 w3-hover-pale-red" style="height:53px"><i class="fa fa-envelope w3-large "></i>     Contacto</a>
+  <a href="../../AcercaDe.html" class="w3-bar-item w3-button w3-right w3-padding-16 w3-hover-pale-green" style="height:53px"><i class="fa fa-address-card  w3-large"></i>    Acerca de </a>
+  <a href="../../index.html" class="w3-bar-item w3-button w3-pale-yellow w3-right  w3-text-pink w3-padding-16 w3-hover-pink" style="height:53px"><i class="fa fa-home  w3-large"></i> Home </a>
+  <a href="../../login.php" class="w3-bar-item w3-button w3-hover-pale-green w3-right  w3-text-amber w3-padding-16 style="height:53px"><i  w3-large"></i> Iniciar Sesión </a>
+</div>
+</div>
+<!-- menu lateral -->
+<div class="w3-sidebar w3-light-gray w3-bar-block w3-text-blue-grey " style="width:11%;position:fixed;top:80px">
+  <h3 class="w3-bar-item w3-blue-gray  w3-card-4" style="height:53px;"> </h3>
+  <a href="../../primero.html" class="w3-bar-item w3-button w3-hover-amber w3-text-amber"><i class="fa fa-graduation-cap  w3-large"></i>  Primero</a>
+  <a href="../../segundo.html" class="w3-bar-item w3-button w3-hover-aqua w3-text-aqua"><i class="fa fa-graduation-cap  w3-large"></i>  Segundo</a>
+  <a href="../../tercero.html" class="w3-bar-item w3-button w3-hover-deep-purple w3-text-deep-purple"><i class="fa fa-graduation-cap  w3-large"></i>   Tercero</a>
+  <a href="../../cuarto.html" class="w3-bar-item w3-button w3-hover-cyan w3-text-cyan"><i class="fa fa-graduation-cap  w3-large"></i>    Cuarto</a>
+  <a href="../../quinto.html" class="w3-bar-item w3-button w3-hover-brown w3-text-brown"><i class="fa fa-graduation-cap  w3-large"></i>   Quinto</a>
+  <a href="../../sexto.html" class="w3-bar-item w3-button w3-hover-pink w3-text-pink"><i class="fa fa-graduation-cap  w3-large"></i>   Sexto</a>
+</div>
+
+<div id="ardoraMain">
+<audio id="audioFelicitacion">
+<source src="AZonas_resources/media/mario-bros-woo-hoo.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="AZonas_resources/media/pacman-5.mp3" type="audio/mp3">
+</audio>
+<audio id="audioIntentos">
+<source src="AZonas_resources/media/pacman-5.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="AZonas_resources/media/pacman-5.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:18px; color:#000000">Coloca el nombre de la zona según la imagen del lugar a la que pertenezca. </SPAN><br>
+<SPAN style="font-size:18px; color:#000000">Puedes consultar el libro El Lugar Donde Vivo para tener más información</SPAN><br>
+</span></div>
+  <div id="ardoraAct">
+      <div id="ima11" class="imaCell">
+        <div id="ima11_img" class="imaCell_img"><img src="AZonas_resources/media/Wm9uYSBIdWFzdGVjYQ.jpg" /></div>
+      </div>
+      <div id="ima12" class="imaCell">
+        <div id="ima12_img" class="imaCell_img"><img src="AZonas_resources/media/Wm9uYSBNZWRpYQ.jpg" /></div>
+      </div>
+      <div id="txt11" class="txtCell">
+        <div id="txt11_txt" class="txtCell_txt"><p>
+Zona Huasteca</p>
+      </div></div>
+      <div id="txt12" class="txtCell">
+        <div id="txt12_txt" class="txtCell_txt"><p>
+Zona Media</p>
+      </div></div>
+      <div id="ima21" class="imaCell">
+        <div id="ima21_img" class="imaCell_img"><img src="AZonas_resources/media/Wm9uYSBBbHRpcGxhbm8.jpeg" /></div>
+      </div>
+      <div id="ima22" class="imaCell">
+        <div id="ima22_img" class="imaCell_img"><img src="AZonas_resources/media/Wm9uYSBDZW50cm8.jpg" /></div>
+      </div>
+      <div id="txt21" class="txtCell">
+        <div id="txt21_txt" class="txtCell_txt"><p>
+Zona Altiplano</p>
+      </div></div>
+      <div id="txt22" class="txtCell">
+        <div id="txt22_txt" class="txtCell_txt"><p>
+Zona Centro</p>
+      </div></div>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="235"></canvas>
+  <div id="buttonOk"><canvas id="buttonOkCanvas" width="70" height="70"></canvas></div>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+<br>
+<br>
+<div id="ardoraAutor"><p>Janet Martínez, Marielen Collins</p></div>
+<footer>Copyright &copy; www.AulaKidSM.com</footer>
+
+</body></html>

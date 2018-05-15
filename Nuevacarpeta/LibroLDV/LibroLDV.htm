@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraLibro-->
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<html lang="es">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../css/3w ww.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="../../imagenes/icono.ico" type="image/x-icon">
+
+<link rel="stylesheet" href="../../css/estilos.css">
+<script src="js/jquery-1.4.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.8.16.custom.js" type="text/javascript"></script>
+<script src="booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="booklet/jquery.booklet.js" type="text/javascript"></script>
+<script src="js/ardoraBooklet.js" type="text/javascript"></script>
+<link href="css/ardoraBooklet.css" type="text/css" rel="stylesheet" media="screen">
+<title>El Lugar Donde Vivo</title>
+
+<style>
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: #C03;
+    clear: left;
+    text-align: center;
+    position:1000px;
+  }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:20px;width:20px;padding:0;}
+</style>
+<style type="text/css">
+
+
+#apDiv2 {
+  position: absolute;
+  left: 80px;
+  top: 7px;
+  width: 497px;
+  height: 36px;
+  z-index: 1;
+}
+#apDiv3 {
+  position: absolute;
+  left: 1242px;
+  margin-top: 8px;
+  width: 154px;
+  height: 41px;
+  z-index: 2;
+}
+#divw3-mobile{
+  position:inherit;
+  width:100%;
+  height:90px;
+  background-image:url(../../imagenes/aves.jpg);
+  border-color:solid black;
+  border:inset;
+}
+#divImages{
+  margin-left:13%;
+  margin-right:1.5%; 
+  text-align:justify;
+  position:inherit;
+  
+}
+#menuActi{
+    max-width: 250px;
+    width: 100%;
+    margin: 48px auto;
+    position: relative;
+   }
+   .actividad{
+    margin-top: 180px;
+    margin-left: 100px;
+   }
+</style>
+
+</head>
+<body> 
+   <!-- banner -->
+<header> 
+<div class="w3-top">
+<div class="w3-light-gray w3-mobile" id="divw3-mobile"></div>
+<div id="apDiv2"> <img src="../../imagenes/logo aula.png" width="500" height="100"/></div>
+<div id="apDiv3" >
+
+  <img src="../../imagenes/colorful-childrens-school-backpack-free-clip-art.png"  width="80" height="75" onmouseover="cambiarImagen()" onmouseout="mostrarImagen()" id="back" /></div>
+</div>
+</header>
+
+<!-- barra de inicio -->
+<div class="w3-top">
+<div class="w3-bar w3-card-4 w3-blue-gray " style="position:fixed; top:90px;height:53px">
+  <a href="../../Contacto.html" class="w3-bar-item w3-button w3-right w3-padding-16 w3-hover-pale-red" style="height:53px"><i class="fa fa-envelope w3-large "></i>     Contacto</a>
+  <a href="../../AcercaDe.html" class="w3-bar-item w3-button w3-right w3-padding-16 w3-hover-pale-green" style="height:53px"><i class="fa fa-address-card  w3-large"></i>    Acerca de </a>
+  <a href="../../index.html" class="w3-bar-item w3-button w3-pale-yellow w3-right  w3-text-pink w3-padding-16 w3-hover-pink" style="height:53px"><i class="fa fa-home  w3-large"></i> Home </a>
+  <a href="../../login.php" class="w3-bar-item w3-button w3-hover-pale-green w3-right  w3-text-amber w3-padding-16 style="height:53px"><i  w3-large"></i> Iniciar Sesión </a>
+</div>
+</div>
+<!-- menu lateral -->
+<div class="w3-sidebar w3-light-gray w3-bar-block w3-text-blue-grey " style="width:11%;position:fixed;top:80px">
+  <h3 class="w3-bar-item w3-blue-gray  w3-card-4" style="height:53px;"> </h3>
+  <a href="../../primero.html" class="w3-bar-item w3-button w3-hover-amber w3-text-amber"><i class="fa fa-graduation-cap  w3-large"></i>  Primero</a>
+  <a href="../../segundo.html" class="w3-bar-item w3-button w3-hover-aqua w3-text-aqua"><i class="fa fa-graduation-cap  w3-large"></i>  Segundo</a>
+  <a href="../../tercero.html" class="w3-bar-item w3-button w3-hover-deep-purple w3-text-deep-purple"><i class="fa fa-graduation-cap  w3-large"></i>   Tercero</a>
+  <a href="../../cuarto.html" class="w3-bar-item w3-button w3-hover-cyan w3-text-cyan"><i class="fa fa-graduation-cap  w3-large"></i>    Cuarto</a>
+  <a href="../../quinto.html" class="w3-bar-item w3-button w3-hover-brown w3-text-brown"><i class="fa fa-graduation-cap  w3-large"></i>   Quinto</a>
+  <a href="../../sexto.html" class="w3-bar-item w3-button w3-hover-pink w3-text-pink"><i class="fa fa-graduation-cap  w3-large"></i>   Sexto</a>
+</div>
+  
+
+   <article style="margin-top: 180px;">
+      <div id="mybook">
+<div class="cover">
+  <h3>San Luis Potosí | El Lugar Donde Vivo</h3>
+   <div class="imaCenter"> <img src="ima/IP_FondoVivo.png"></div>
+  <h4></h4>
+</div>
+<div class="pLeft">
+<p style="text-align:justify;">
+<SPAN style="font-size:22px; color:#000000"><b>Nuestra Entidad, </b></SPAN><SPAN style="font-size:18px; color:#000000">San Luis Potosí, se ubica en el centro-norte del país. Está formada por 58 municipios divididos en varias localidades.</SPAN><br>
+<SPAN style="font-size:18px; color:#000000"><div class="imaCenter"><img src="ima/Ima1_slpvecinos.png"></div></SPAN><br>
+<SPAN style="font-size:18px; color:#000000">Tiene 9 estados vecinos los cuales son: Aguascalientes, Querétaro, Jalisco, Guanajuato, Hidalgo, Zacatecas, Nuevo León, Tamaulipas y Veracruz.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">San Luis Potosí se encuentra geográficamente dividida en 4 zonas o regiones:</SPAN><br>
+<SPAN style="font-size:18px; color:#000000"> - Zona Altiplano</SPAN><br>
+<SPAN style="font-size:18px; color:#000000"> - Zona Centro</SPAN><br>
+<SPAN style="font-size:18px; color:#000000"> - Zona Media </SPAN><br>
+<SPAN style="font-size:18px; color:#000000"> - Zona Huasteca.</SPAN><br>
+</p>
+</div>
+<div class="pRight">
+<p style="text-align:justify;">
+<SPAN style="font-size:22px; color:#000000"><b>Regiones de San Luis Potosí</b></SPAN><br>
+<br>
+<SPAN style="font-size:22px; color:#000000"><b><div class="imaCenter"><img src="ima/Ima1_regionesSLP.png"></div></b></SPAN><br>
+<br>
+<br>
+<SPAN style="font-size:18px; color:#000000"><b>Altiplano</b></SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">Es una extensa región elevada que se localiza en el oeste de la entidad. Está formada por planicies y pequeñas sierras, como El Tunalillo, Los Lobos, Las Hendiduras, El Jacalón y San Miguelito.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">Una planta típica de la zona es "La Gobernadora", es un arbusto que crece en los valles que están entre las sierras; por su fuerte olor también se le llama "Hediondilla".</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">En el Altiplano llueve poco y existen zonas semidesérticas.</SPAN><br>
+<SPAN style="font-size:18px; color:#000000">Charcas, Venado, Moctezuma, Ahualulco y la ciudad de San Luis Potosí.</SPAN><br>
+</p>
+</div>
+<div class="pLeft">
+<p style="text-align:justify;">
+<SPAN style="font-size:22px; color:#000000"><b>Zona media</b></SPAN><br>
+<SPAN style="font-size:12px; color:#000000"></SPAN><SPAN style="font-size:18px; color:#000000">La principal ciudad y centro económico de la Región Media es la ciudad de Río Verde (México) y el mayor destino turístico de la zona es el Manantial de la Media Luna, ubicado en el ejido El Jabalí, municipio de Rioverde.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">La zona está dividida básicamente en 2, una de clima seco templado y otra selvática de menor tamaño se puede encontrar una gran variedad de fauna, compuesta principalmente por: venados, armadillos, gato montes, ardillas, liebres, pumas, etc. <div class="imaCenter"><img src="ima/Ima1_armadillo.jpeg"></div></SPAN><br>
+<SPAN style="font-size:18px; color:#000000">en la zona seca templada, y loros, cotorras, osos, caimanes, pumas, venados, monos, etc, en la zona selvática.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">Esta región cuenta con 12 municipios: Alaquines, Cárdenas, Cerritos, Ciudad del Maíz, Ciudad Fernández, Lagunillas, Rayón, Rioverde, San Ciro de Acosta, San Nicolás Tolentino, Santa Catarina y Villa Juárez.</SPAN><br>
+</p>
+</div>
+<div class="pRight">
+<p style="text-align:justify;">
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima1_caiman.jpg"></div></SPAN><br>
+<br>
+<SPAN style="font-size:22px; color:#000000"><b>Zona Centro</b></SPAN><br>
+<SPAN style="font-size:22px; color:#000000"><b></b></SPAN><SPAN style="font-size:18px; color:#000000">Existe una gran actividad artística y cultural, que gracias al maravilloso clima se pueden disfrutar al aire libre.</SPAN><br>
+<SPAN style="font-size:18px; color:#000000"> Es la zona donde se encuentra la capital del Estado (San Luis Potosí), la zona centro es la región más próspera del Estado, y una de las más hermosas del país, gracias a su arquitectura monumental, sus impresionantes fachadas barrocas, plazas y jardines que invitan al descanso y la contemplación. Situada en la altiplanicie Central Mexicana, esta zona cuenta con 11 municipios.</SPAN><br>
+<br>
+<br>
+<br>
+</p>
+</div>
+<div class="pLeft">
+<p style="text-align:justify;">
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima1_SanLuisPotosiTXT.jpg"></div></SPAN><br>
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima4_035da8centro-historico.jpg"></div></SPAN><br>
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima3_centro.jpg"></div></SPAN><br>
+</p>
+</div>
+<div class="pRight">
+<p style="text-align:justify;">
+<SPAN style="font-size:22px; color:#000000"><b>Zona Huasteca</b></SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">Región Huasteca es el nombre de una región en México que comprende el norte de Veracruz, el sur de Tamaulipas, y partes de los estados de San Luis Potosí e Hidalgo.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">La huasteca Potosina está constituida por 20 municipios.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">La zona Huasteca es una de las zonas mas hermosas con las que cuenta el Estado. Abarca algunas porciones de la Sierra Madre Oriental, su nombre se deriva de los Huastecos, habitantes de esta zona en la época prehispánica.</SPAN><br>
+<br>
+<SPAN style="font-size:18px; color:#000000">Tiene diversos sitios de gran atractivo, lugares de exuberante vegetación, intensa humedad que favorese la existencia de numerosos paisajes naturales, ríos, cascadas, lagunas, manantiales, sótanos, grutas y muchos más atractivos.</SPAN><br>
+<br>
+<br>
+<SPAN style="font-size:18px; color:#000000"><div class="imaCenter"><img src="ima/Ima1_huasteca.jpg"></div></SPAN><br>
+<br>
+</p>
+</div>
+<div class="pLeft">
+<p style="text-align:justify;">
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima1_xilitla.jpg"></div></SPAN><br>
+<SPAN style="font-size:12px; color:#000000"><div class="imaCenter"><img src="ima/Ima3_02136058.jpg"></div></SPAN><br>
+<br>
+</p>
+</div>
+<div class="pRight">
+</div>
+      </div>
+   </article>
+</body></html>

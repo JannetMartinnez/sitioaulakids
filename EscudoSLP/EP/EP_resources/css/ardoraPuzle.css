@@ -1,0 +1,55 @@
+/*Creado con Ardora - www.webardora.net
+bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor*/
+.ui-corner-all{ -webkit-border-radius: 4px; border-radius: 4px;}
+body{background-color:black;}
+#ardoraMain{ font-family:Century Gothic, sans-serif; color: #000000; padding: 5px; position: relative; margin-top: 180px;}
+#ardoraEnu{ font-size: 18px; position: relative; padding: 5px; margin-bottom: 10px;
+text-align: center;
+}
+#ardoraAlumSCORM{visibility: hidden;padding:0px;margin:0px;position: absolute;height: 15px;width: 250px;bottom: 0px;right: 0px;cursor: pointer;border-style: dotted;
+border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);font-size: 10px;
+background:rgba(255,128,0,0.5);}
+#ardoraAlumSCORM p{padding:0px;margin:0px;padding-left: 2px;}
+#ardoraAutor{padding-left:5px; clear:both; font-size: 12px; border-top:thin; border-top-style:solid; margin-left: 150px;}
+#buttonOk{ position: absolute; height: 70px; width: 70px; bottom: 0px; cursor: pointer;border-style: solid; border-width: 1px;
+-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
+-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5); box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);}
+#ardoraTabCanvas{width: 70px;border-style: solid;border-width: 1px;-webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius:4px;-webkit-box-shadow: 4px 4px 4px rgba(50, 50, 50, 0.5);box-shadow: 4px 4px 4px rgba(50,50,50,0.5);height:137px;} 
+.imaCell{display:  table; text-align: center; -webkit-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;
+position:  absolute; border-color: black; border-style: dotted; border-width: 1px;
+width:66px; height: 80px;}
+#ardoraActCanvas{z-index: 0; position: absolute; visibility:hidden;}
+.imaCell img{ z-index:0;
+-moz-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75); -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75); box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+}
+#ima11 { top:3px;left:3px;}
+#ima12 { top:83px;left:3px;}
+#ima13 { top:163px;left:3px;}
+#ima14 { top:243px;left:3px;}
+#ima15 { top:323px;left:3px;}
+#ima21 { top:3px;left:69px;}
+#ima22 { top:83px;left:69px;}
+#ima23 { top:163px;left:69px;}
+#ima24 { top:243px;left:69px;}
+#ima25 { top:323px;left:69px;}
+#ima31 { top:3px;left:135px;}
+#ima32 { top:83px;left:135px;}
+#ima33 { top:163px;left:135px;}
+#ima34 { top:243px;left:135px;}
+#ima35 { top:323px;left:135px;}
+#ima41 { top:3px;left:201px;}
+#ima42 { top:83px;left:201px;}
+#ima43 { top:163px;left:201px;}
+#ima44 { top:243px;left:201px;}
+#ima45 { top:323px;left:201px;}
+#ima51 { top:3px;left:267px;}
+#ima52 { top:83px;left:267px;}
+#ima53 { top:163px;left:267px;}
+#ima54 { top:243px;left:267px;}
+#ima55 { top:323px;left:267px;}
+.imaCell_img{ display: table-cell; vertical-align: middle;cursor: pointer;}
+#ardoraAct{width:330px; height:400px;position: relative; margin-right: 10px; padding: 5px; float: left; margin-top: 10px;margin-left: 420px;
+}
+#ardoraTab{width: 70px;height:320px; position: relative; visibility: visible;padding:5px;float:left;}
